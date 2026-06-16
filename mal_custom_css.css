@@ -1,0 +1,164 @@
+:root {
+  /* CHANGE THIS COLOR TO ALTER ALL THE BLUE ITEMS AT ONCE */
+  --theme-color: #00A0F0; 
+}
+
+/* ----------------------------------------------------
+   1. BACKGROUNDS (CATEGORY LINKS, HEADERS, LISTS, MENU)
+   ---------------------------------------------------- */
+
+/* BACKGROUND COLOR OF CATEGORY LINKS */
+.status-menu-container {
+  background-color: rgba(0,0,0,.7) !important;
+}
+
+/* CATEGORY HEADER BACKGROUND COLOR ("ALL ANIME" BAR) */
+.list-unit .list-status-title {
+  background-color: var(--theme-color) !important;
+}
+
+/* BACKGROUND AND BORDER COLOR OF LIST */
+.list-block, .cover-block {
+  background-color: rgba(0,0,0,.7) !important;
+}
+
+/* BACKGROUND COLOR OF ROWS ON HOVER */
+tbody[class*="list-item"]:hover,
+.list-table tbody:nth-of-type(2n+1):hover {
+  background-color: rgba(0,0,0,.7) !important;
+}
+
+/* BACKGROUND COLOR OF SIDE MENU */
+.list-menu-float .icon-menu {
+  background: rgba(0,0,0,.7) !important;
+}
+
+/* BACKGROUND COLOR OF SIDE MENU WHEN OPENED */
+.list-menu-float .icon-menu:not(.profile):hover,
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, 
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+  background: rgba(0,0,0,.7) !important;
+}
+
+/* BORDER COLOR OF SIDE MENU */
+.list-menu-float {
+  border: #000000 2px solid;
+}
+
+
+/* ----------------------------------------------------
+   2. FONT COLORS & LINKS
+   ---------------------------------------------------- */
+
+/* HEADER TEXT COLORS */
+.header .header-menu *, #header-menu-button, .header .header-menu a {
+  color: var(--theme-color);
+}
+
+/* CATEGORY BUTTON LINK COLORS */
+.status-menu-container .status-menu .status-button {
+  color: var(--theme-color) !important;
+}
+
+/* CATEGORY BUTTON UNDERLINE COLOR ON HOVER */
+.status-menu-container .status-menu .status-button:hover::after {
+  background-color: var(--theme-color) !important;
+}
+
+/* ACTIVE CATEGORY UNDERLINE BAR AND TEXT */
+.status-menu-container .status-menu .status-button.on {
+  color: var(--theme-color) !important;
+}
+.status-menu-container .status-menu .status-button.on::after {
+  background-color: var(--theme-color) !important;
+}
+
+/* STATS FILTER COLORS (Top Right of Header Bar) */
+.list-unit .list-status-title .stats *,
+.list-unit .list-status-title .stats a {
+  color: #101010 !important;
+}
+
+/* ANIME STAT COLORS */
+.list-unit .list-stats {
+  color: #101010 !important;  
+  font-family: arial;
+}
+
+/* CATEGORY HEADER FONT */
+.list-unit .list-status-title .text {
+  color: #101010 !important;
+  font-family: arial;
+}
+
+/* COLUMN HEADER COLORS (Score, Type, Progress, etc.) */
+.list-table .list-table-header .header-title,
+.list-table .list-table-header .header-title .link.sort,
+.list-table .list-table-header .header-title.image a {
+  color: var(--theme-color) !important;
+  font-family: arial;
+}
+
+/* LIST LINK FONT (Anime Titles) */     
+.list-table .list-table-data .data a {
+  color: var(--theme-color) !important;
+  font-family: arial;
+}
+
+/* LIST NON-LINK FONT */     
+.list-table .list-table-data .data {
+  color: #ffffff;
+  font-family: arial;
+}
+
+/* TAGS EDIT FONT */      
+.list-table .list-table-data .tags .edit {
+  color: var(--theme-color) !important;
+  font-family: arial;
+}
+
+/* SIDE MENU ICONS */
+.list-menu-float .icon-menu svg.icon {
+  fill: var(--theme-color);
+}
+
+/* SIDE MENU ICONS AND TEXT WHEN OPENED */
+.list-menu-float .icon-menu svg.icon:hover {
+  fill: var(--theme-color) !important;
+}
+
+/* LINK COLOR ON HOVER */  
+a:hover,
+.list-table .list-table-data .data a:hover {
+  color: var(--theme-color) !important;   
+}
+
+
+/* ----------------------------------------------------
+   3. OTHER LAYOUT CODES
+   ---------------------------------------------------- */
+
+body {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+.cover-block {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.list-table > tbody:nth-of-type(2n+1),
+.list-table, .list-container,  
+.list-table .list-table-header .header-title {
+  background-color: transparent !important;
+  border: 0 transparent solid !important;
+}
+
+.list-table .list-table-data .data {
+  border: 0 transparent solid !important;
+}
+
+#footer-block {
+  display: none !important;
+}

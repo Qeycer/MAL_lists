@@ -1,0 +1,274 @@
+{IMPORTANT:
+For sharper and brighter preview pics, change "Qeycer" to your username in the first two imports below. They start with 
+@\import
+}
+
+@\import "https://malscraper.azurewebsites.net/covers/anime/Qeycer/presets/dataimagelinkbefore";
+ 
+@\import "https://malscraper.azurewebsites.net/covers/manga/Qeycer/presets/dataimagelinkbefore";
+ 
+
+/* Layout CSS was originally made by Takana_no_hana, edits by 
+Shishio-kun and Valerio_Lyndon, 
+now by Qeycer or gucio434 (kmwtw)
+
+for more explanation about the file check: https://pastebin.com/raw/TYWU76rJ
+*/
+
+@\import "https://shishiohub.github.io/Layouts/Takana_Grid_Main.css";
+
+/* @\import "https://fonts.googleapis.com/css?family=Orbitron";
+
+@\import "https://fonts.googleapis.com/css?family=Amaranth";
+
+@\import "https://fonts.googleapis.com/css?family=Rancho";
+
+@\import "https://fonts.googleapis.com/css?family=Kaushan+Script|Tangerine"; */
+
+@\import "https://fonts.googleapis.com/css2?family=Cinzel+Decorative";
+
+@\import "https://fonts.googleapis.com/css2?family=Caveat";
+
+/* WALLPAPERS
+To change background images: Change url to your own */
+body, body.ownlist 
+{
+    background-image: url(https://i.imgur.com/TLZcnRV.png); /*done*/
+}
+
+/* PREVIEW PICS/COVERS */
+
+/* .data.image a[href^="/anime/1575/"]:before{
+    background-image:url(https://i.imgur.com/QuPoz5o.jpg);
+} */
+ 
+/* BANNER AVATAR */
+.list-table .list-table-header:after {
+    background-image: url(https://i.imgur.com/GH6BMvr.gif);
+    background-position: center center;
+    background-size: cover !important;
+}
+ 
+/*BANNER QUOTE*/
+.cover-block::before {
+    content: " Everything can be eaten... Even if you say no... ";
+    font-family: 'Cinzel Decorative', serif !important;
+    font-size: 32px;
+}
+ 
+/* BANNER BACKGROUND AND HEIGHT */
+:root {
+    --ver-offset: 180px;
+}
+.list-unit.watching .list-status-title:after,
+.list-unit.reading .list-status-title:after,
+.list-unit.completed .list-status-title:after,
+.list-unit.onhold .list-status-title:after,
+.list-unit.dropped .list-status-title:after,
+.list-unit.plantowatch .list-status-title:after,
+.list-unit.plantoread .list-status-title:after,
+.list-unit.all_anime .list-status-title:after {
+    background-image: url(https://i.imgur.com/DLv1CeJ.png); /*done*/
+    background-size: cover !important;
+    height: calc(500px + var(--ver-offset)) !important;
+
+}
+
+/* MOVE COVER PICS UP OR DOWN */
+.list-unit .list-status-title .text,.list-item{
+    top: calc(0px + var(--ver-offset));
+}
+ 
+/* BANNER BUTTON BACKGROUNDS */
+
+/* ALL ANIME BANNER BUTTON */
+.status-button.all_anime {
+    background-image:url(https://i.imgur.com/vcDyym8.png); /*done*/
+}
+.status-button.all_anime:hover,.status-button.all_anime.on {
+    background-image:url(https://i.imgur.com/SPDyqDZ.png); /*done*/
+}
+/* CURRENT BANNER BUTTON */
+.status-button.watching,.status-button.reading {
+    background-image:url(https://i.imgur.com/bS9nGuO.png); /*done*/
+}
+.status-button.watching:hover,.status-button.watching.on,.status-button.reading:hover,.status-button.reading.on {
+    background-image:url(https://i.imgur.com/ajHODQG.png); /*done*/
+}
+/* COMPLETED BANNER BUTTON */
+.status-button.completed {
+    background-image:url(https://i.imgur.com/j6M46Ov.png); /*done*/
+}
+.status-button.completed:hover,.status-button.completed.on {
+    background-image:url(https://i.imgur.com/7o1ZHCm.png); /*done*/
+}
+/* ON HOLD BANNER BUTTON */
+.status-button.onhold {
+    background-image:url(https://i.imgur.com/p2eZqWb.png); /*done*/
+}
+.status-button.onhold:hover ,.status-button.onhold.on {
+    background-image:url(https://i.imgur.com/BJ4nM0R.png); /*done*/
+}
+/* DROPPED BANNER BUTTON */
+.status-button.dropped {
+    background-image:url(https://i.imgur.com/EFHj4Hr.png); /*done*/
+}
+.status-button.dropped:hover,.status-button.dropped.on {
+    background-image:url(https://i.imgur.com/nImsaOf.png); /*done*/
+}
+/* PLANNED BANNER BUTTON */
+.status-button.plantowatch,.status-button.plantoread{
+    background-image:url(https://i.imgur.com/vmgPIzJ.png); /*done*/
+}
+.status-button.plantowatch:hover,.status-button.plantowatch.on,.status-button.plantoread:hover,.status-button.plantoread.on {
+    background-image:url(https://i.imgur.com/H5B4uId.png); /*done*/
+}
+ 
+/* SIDE RENDERS (left and right) */
+footer:before {
+    left: 0%;
+    width: 25% !important;
+    background-size: contain !important;
+    background-image: url();
+    background-position: left bottom !important;
+}
+footer:after {
+    right: 0%;
+    width: 20% !important;
+    background-size: contain !important;;
+    background-image: url();
+    background-position: right bottom !important;
+}
+
+/* ANIME/MANGA CONTAINER SETTINGS */
+.list-unit {
+    background-color: rgba(0,0,0,.6) ;
+}
+.status-menu-container {
+    background-color: rgba(0,0,0,.4) ;
+}
+.list-table .list-table-data {
+    background-color: rgba(0,0,0,.2) !important;
+}
+.list-table .list-table-data:hover {
+    background-color: rgba(0,0,0,.4) !important;
+}
+.list-menu-float .icon-menu{
+    background-color: rgba(0,0,0,.4) !important;
+}
+.header {
+    background: linear-gradient(rgba(0,0,0,.4),transparent) !important;
+}
+ 
+/* FILTER MENU BACKGROUND */
+#advanced-options {
+    background-image: url(https://i.imgur.com/h0VRsRc.png) !important;
+}
+ 
+/* MAL LOGO */
+.header .header-title{
+    background-image: url(https://imgur.com/E7zWfiY.png) !important; /*no need to change*/
+}
+ 
+/* GREYSCALE FOR CUSTOM CATEGORY BUTTONS */
+.status-button.watching,.status-button.reading,.status-button.completed,.status-button.onhold,.status-button.dropped,.status-button.plantowatch,.status-button.plantoread,.status-button.all_anime{
+    filter: grayscale(90%);
+}
+.status-button.all_anime:hover,.status-button.all_anime.on,.status-button.plantowatch:hover,.status-button.plantowatch.on,.status-button.plantoread:hover,.status-button.plantoread.on,.status-button.dropped:hover,.status-button.dropped.on,.status-button.onhold:hover,.status-button.onhold.on,.status-button.completed:hover,.status-button.completed.on,.status-button.watching:hover,.status-button.watching.on,.status-button.reading:hover,.status-button.reading.on{
+    filter: inherit;
+}
+
+/* NEW CODE FROM NOW ON */
+
+/* FORCE DEFAULT CURSOR */
+html, body, body *, a, a *, :not(*) {
+    cursor: auto !important;
+}
+
+/* KEEP HAND CURSOR FOR CLICKABLE LINKS */
+a, a *, button, label, [role="button"], .btn {
+    cursor: pointer !important;
+}
+
+/* CHANGE TAKANA NO HANA FONTS */
+
+/* APPLY TO CATEGORY HEADERS */
+.status-menu-container .status-menu .status-button, 
+.list-table .list-header .header-title {
+    font-family: 'Cinzel Decorative', serif !important;
+    font-size: 14px !important;
+}
+
+/* APPLY TO TITLES */
+.list-table .list-table-data .data.title .link {
+    font-family: 'Cinzel Decorative', serif !important;
+    font-size: 14px !important;
+}
+
+/* APPLY TO MAIN BANNER TITLE */
+.list-unit .list-status-title .text{
+    margin-top: -36px !important;
+    font-family: 'Cinzel Decorative', serif !important;
+    font-size: 36px;
+    letter-spacing: 1px !important;
+}
+
+/* HIGHLIGHT SCORES FOR TAKANA GRID */
+
+/* Score 10 - Golden */
+.list-table-data .score a[class*="link-10"],
+.list-table-data .score[data-score="10"] a,
+.list-table .list-table-data .data.score .score-10 {
+    color: #FFD700 !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.6) !important;
+}
+
+/* Score 9 - Purple */
+.list-table-data .score a[class*="link-9"],
+.list-table-data .score[data-score="9"] a,
+.list-table .list-table-data .data.score .score-9 {
+    color: #BA55D3 !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 5px rgba(186, 85, 211, 0.6) !important;
+}
+
+/* Score 8 - Green */
+.list-table-data .score a[class*="link-8"],
+.list-table-data .score[data-score="8"] a,
+.list-table .list-table-data .data.score .score-8 {
+    color: #32CD32 !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 5px rgba(50, 205, 50, 0.6) !important;
+}
+
+/* BOTTOM PADDING TO ADMIRE BACKGROUND PICTURE :) */
+/* ROUNDED FRAME */
+.list-container::after {
+    content: "";
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 100%;
+    height: 720px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    box-sizing: border-box;
+    pointer-events: none;
+    margin: 40px auto 40px auto;
+
+    /* VIBE TEXT :3 */
+    content: " I am just a dream... ";
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Caveat', serif !important;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+/*
+1. change gif icon (imgur needed)
+2. change filter bg (imgur needed)
+3. (maybe) add footers
+*/
