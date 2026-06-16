@@ -15,6 +15,14 @@ now by Qeycer or gucio434 (kmwtw)
 for more explanation about the file check: https://pastebin.com/raw/TYWU76rJ
 */
 
+/* To single line apply use import below, but 
+after pushing changes jsdelivr might take few hours to update the changes:
+
+@\import "https://cdn.jsdelivr.net/gh/Qeycer/MAL_lists@main/mal_based_on_Takana_no_hana.css";
+
+@\import "https://Qeycer.github.io/MAL_lists/mal_based_on_Takana_no_hana.css";
+*/
+
 @\import "https://shishiohub.github.io/Layouts/Takana_Grid_Main.css";
 
 /* @\import "https://fonts.googleapis.com/css?family=Orbitron";
@@ -127,20 +135,20 @@ body, body.ownlist
 .status-button.plantowatch:hover,.status-button.plantowatch.on,.status-button.plantoread:hover,.status-button.plantoread.on {
     background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/6_plan_to_watch/plan_on.png); /*done*/
 }
- 
+ git commit "css edit + emotes"
 /* SIDE RENDERS (left and right) */
 footer:before {
     left: 0%;
     width: 25% !important;
     background-size: contain !important;
-    background-image: url();
+    background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/emotes/Zani_4.png);
     background-position: left bottom !important;
 }
 footer:after {
     right: 0%;
     width: 20% !important;
     background-size: contain !important;;
-    background-image: url();
+    background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/emotes/Danjin_1.png);
     background-position: right bottom !important;
 }
 
@@ -211,7 +219,7 @@ a, a *, button, label, [role="button"], .btn {
 
 /* APPLY TO MAIN BANNER TITLE */
 .list-unit .list-status-title .text{
-    margin-top: -36px !important;
+    margin-top: -48px !important;
     font-family: 'Cinzel Decorative', serif !important;
     font-size: 36px;
     letter-spacing: 1px !important;
