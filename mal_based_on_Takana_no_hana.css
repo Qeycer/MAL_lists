@@ -135,7 +135,7 @@ body, body.ownlist
 .status-button.plantowatch:hover,.status-button.plantowatch.on,.status-button.plantoread:hover,.status-button.plantoread.on {
     background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/6_plan_to_watch/plan_on.png); /*done*/
 }
- git commit "css edit + emotes"
+
 /* SIDE RENDERS (left and right) */
 footer:before {
     left: 0%;
