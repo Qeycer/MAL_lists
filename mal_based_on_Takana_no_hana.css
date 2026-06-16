@@ -47,7 +47,7 @@ body, body.ownlist
 /* BANNER AVATAR */
 .list-table .list-table-header:after {
     background-image: url(
-        https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/profile_icon.png
+        https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/profile_icon/profile_icon.png
     );
     background-position: center center;
     background-size: cover !important;
