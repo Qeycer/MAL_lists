@@ -16,7 +16,8 @@ for more explanation about the file check: https://pastebin.com/raw/TYWU76rJ
 */
 
 /* To single line apply use import below, but 
-after pushing changes jsdelivr might take few hours to update the changes:
+after pushing changes jsdelivr might take few hours to update the changes,
+github.io takes few mins after push:
 
 @\import "https://cdn.jsdelivr.net/gh/Qeycer/MAL_lists@main/mal_based_on_Takana_no_hana.css";
 
@@ -55,7 +56,7 @@ body, body.ownlist
 /* BANNER AVATAR */
 .list-table .list-table-header:after {
     background-image: url(
-        https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/profile_icon/profile_icon.png
+        https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/emotes/Zani_1.png
     );
     background-position: center center;
     background-size: cover !important;
@@ -137,20 +138,21 @@ body, body.ownlist
 }
 
 /* SIDE RENDERS (left and right) */
-footer:before {
+/* not used currently */
+/* footer:before {
     left: 0%;
-    width: 25% !important;
+    width: 15% !important;
     background-size: contain !important;
-    background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/emotes/Zani_4.png);
+    background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/emotes/Zani_5.png);
     background-position: left bottom !important;
 }
 footer:after {
     right: 0%;
-    width: 20% !important;
+    width: 15% !important;
     background-size: contain !important;;
     background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/emotes/Danjin_1.png);
     background-position: right bottom !important;
-}
+} */
 
 /* ANIME/MANGA CONTAINER SETTINGS */
 .list-unit {
@@ -279,8 +281,3 @@ a, a *, button, label, [role="button"], .btn {
     font-family: 'Caveat', serif !important;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
-/*
-1. change gif icon (imgur needed)
-2. change filter bg (imgur needed)
-3. (maybe) add footers
-*/
