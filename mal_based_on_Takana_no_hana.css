@@ -139,20 +139,20 @@ body, body.ownlist
 
 /* SIDE RENDERS (left and right) */
 /* not used currently */
-/* footer:before {
+footer:before {
     left: 0%;
-    width: 15% !important;
+    width: 10% !important;
     background-size: contain !important;
     background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/emotes/Zani_5.png);
     background-position: left bottom !important;
 }
 footer:after {
     right: 0%;
-    width: 15% !important;
+    width: 10% !important;
     background-size: contain !important;;
     background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/emotes/Danjin_1.png);
     background-position: right bottom !important;
-} */
+}
 
 /* ANIME/MANGA CONTAINER SETTINGS */
 .list-unit {
