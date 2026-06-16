@@ -33,7 +33,9 @@ for more explanation about the file check: https://pastebin.com/raw/TYWU76rJ
 To change background images: Change url to your own */
 body, body.ownlist 
 {
-    background-image: url(https://i.imgur.com/TLZcnRV.png); /*done*/
+    background-image: url(
+        https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/background/background.png
+        ); /*done*/
 }
 
 /* PREVIEW PICS/COVERS */
@@ -44,7 +46,9 @@ body, body.ownlist
  
 /* BANNER AVATAR */
 .list-table .list-table-header:after {
-    background-image: url(https://i.imgur.com/GH6BMvr.gif);
+    background-image: url(
+        https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/profile_icon.png
+    );
     background-position: center center;
     background-size: cover !important;
 }
@@ -56,7 +60,7 @@ body, body.ownlist
     font-size: 32px;
 }
  
-/* BANNER BACKGROUND AND HEIGHT */
+/* MAIN BANNER BACKGROUND AND HEIGHT */
 :root {
     --ver-offset: 180px;
 }
@@ -68,7 +72,7 @@ body, body.ownlist
 .list-unit.plantowatch .list-status-title:after,
 .list-unit.plantoread .list-status-title:after,
 .list-unit.all_anime .list-status-title:after {
-    background-image: url(https://i.imgur.com/DLv1CeJ.png); /*done*/
+    background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_main/main_banner.png); /*done*/
     background-size: cover !important;
     height: calc(500px + var(--ver-offset)) !important;
 
@@ -83,45 +87,45 @@ body, body.ownlist
 
 /* ALL ANIME BANNER BUTTON */
 .status-button.all_anime {
-    background-image:url(https://i.imgur.com/vcDyym8.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/1_all/all_off.png); /*done*/
 }
 .status-button.all_anime:hover,.status-button.all_anime.on {
-    background-image:url(https://i.imgur.com/SPDyqDZ.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/1_all/all_on.png); /*done*/
 }
 /* CURRENT BANNER BUTTON */
 .status-button.watching,.status-button.reading {
-    background-image:url(https://i.imgur.com/bS9nGuO.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/2_currently/currently_off.png); /*done*/
 }
 .status-button.watching:hover,.status-button.watching.on,.status-button.reading:hover,.status-button.reading.on {
-    background-image:url(https://i.imgur.com/ajHODQG.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/2_currently/currently_on.png); /*done*/
 }
 /* COMPLETED BANNER BUTTON */
 .status-button.completed {
-    background-image:url(https://i.imgur.com/j6M46Ov.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/3_completed/completed_off.png); /*done*/
 }
 .status-button.completed:hover,.status-button.completed.on {
-    background-image:url(https://i.imgur.com/7o1ZHCm.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/3_completed/completed_on.png); /*done*/
 }
 /* ON HOLD BANNER BUTTON */
 .status-button.onhold {
-    background-image:url(https://i.imgur.com/p2eZqWb.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/4_on_hold/on_hold_off.png); /*done*/
 }
 .status-button.onhold:hover ,.status-button.onhold.on {
-    background-image:url(https://i.imgur.com/BJ4nM0R.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/4_on_hold/on_hold_on.png); /*done*/
 }
 /* DROPPED BANNER BUTTON */
 .status-button.dropped {
-    background-image:url(https://i.imgur.com/EFHj4Hr.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/5_dropped/dropped_off.png); /*done*/
 }
 .status-button.dropped:hover,.status-button.dropped.on {
-    background-image:url(https://i.imgur.com/nImsaOf.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/5_dropped/dropped_on.png); /*done*/
 }
 /* PLANNED BANNER BUTTON */
 .status-button.plantowatch,.status-button.plantoread{
-    background-image:url(https://i.imgur.com/vmgPIzJ.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/6_plan_to_watch/plan_off.png); /*done*/
 }
 .status-button.plantowatch:hover,.status-button.plantowatch.on,.status-button.plantoread:hover,.status-button.plantoread.on {
-    background-image:url(https://i.imgur.com/H5B4uId.png); /*done*/
+    background-image:url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/banner_buttons/6_plan_to_watch/plan_on.png); /*done*/
 }
  
 /* SIDE RENDERS (left and right) */
@@ -162,7 +166,7 @@ footer:after {
  
 /* FILTER MENU BACKGROUND */
 #advanced-options {
-    background-image: url(https://i.imgur.com/h0VRsRc.png) !important;
+    background-image: url(https://raw.githubusercontent.com/Qeycer/MAL_lists/refs/heads/main/filter_bg/filter_bg.png) !important; /*done*/
 }
  
 /* MAL LOGO */
